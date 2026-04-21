@@ -35,7 +35,7 @@ void draw() {
   fill(40, 50, 30);
   noStroke();
   triangle(778, 285, 768, 355, 788, 355); 
-  triangle(778, 300, 772, 330, 784, 330); // Punta 
+  triangle(778, 300, 772, 330, 784, 330); 
 
   fill(50, 30, 10);
   rect(777, 355, 4, 10);
@@ -63,7 +63,7 @@ void draw() {
   fill(#D6C16E);
   triangle(535, 312, 578, 350, 510, 375); 
   triangle(680, 300, 724, 358, 620, 500);
-  //CUELLO en v
+
   fill(#391B25); 
   beginShape();
   vertex(535, 270); 
@@ -71,7 +71,7 @@ void draw() {
   vertex(654, 251); 
   vertex(655, 380);
   endShape(CLOSE);
-  //PELO 
+
   fill(#62491B);
   beginShape();
   vertex(530, 140); 
@@ -119,8 +119,8 @@ void draw() {
   line(570, 142, 590, 142); 
   line(610, 142, 630, 142); 
 
-  line(600, 160, 600, 180); // Nariz
-  line(585, 195, 615, 195); // Boca
+  line(600, 160, 600, 180); 
+  line(585, 195, 615, 195);
 
   fill(#AF775A); 
   noStroke();
